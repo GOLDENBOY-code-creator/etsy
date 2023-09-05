@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Roboto&family=Roboto+Condensed:ital,wght@1,300&family=Rubik+Iso&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>etsy store</title>
+
+
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: 0;
+      }
+      .div-1{
+        display: flex;
+        background-color:  rgb(244, 151, 10);
+
+      }
+      .logo{
+        width: 80px;
+        margin-left: 40px;
+      }
+
+      .search-bar{
+        margin-top: 20px;
+        width: 950px;
+        height: 40px;
+        border: none;
+        background-color: white;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-left: 40px;
+      }
+      .butt{
+        width: 90px;
+        height: 40px;
+        margin-top: 20px;
+        border: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: white;
+      }
+      .butt,.search-bar:hover{
+        border: none;
+        cursor: pointer;
+        background-image: linear-gradient(purple , red);
+      }
+      .butt:active{
+        text-decoration: none;
+        background-image: linear-gradient(purple , red);
+      }
+
+      .fa-magnifying-glass{
+        font-size: 15px;
+        margin-right: 70px;
+      }
+     ::placeholder{
+      font-size: 20px;
+      margin-top: 40px;
+      font-family: 'Rubik Iso', cursive;
+     }
+     .nav{
+      display: flex;
+      margin-top: 30px;
+     }
+     a{
+      text-decoration: none;
+     }
+     .sign-in{
+      color: rgb(90, 27, 184);
+      font-size: 13px;
+      margin-left: 10px;
+     
+     
+     }
+     .sign-in:hover{
+      border: 2px solid;
+      border-color: orange;
+      position:static
+
+     }
+     .fa-heart{
+      color:purple;
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 10px;
+    }
+    .fa-heart:hover{
+      display: block
+    }
+    .like{
+      font-size: small;
+      margin-top: 2px;
+      display: none;
+    }
+    .like:hover{
+      display: block
+    }
+    .like:active{
+      display: block;
+    }
+    .fa-bag-shopping{
+      color:purple;
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 10px;
+    }
+
+    .div-2{
+      background-color:rgb(182, 145, 145);
+      height: 50px;
+    }
+    ul{
+    list-style: none;
+    position: absolute;
+    margin-left: 100px;
+    }
+    ul li{
+    float: left;
+     margin: 30px;
+    }
+    ul li a{
+      width: 50px;
+      color: blue;
+      font-size: 10px;
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    a:hover{
+      background-color:transparent;}
+
+    .drop-down{
+    background-image: tranparent;
+    width: 400px;
+    color: white;
+    }
+    ul li ul li{
+      float: left;
+      border-radius: 200px;
+      margin-right: 100px;
+    }
+ ul li ul{
+  display: none;
+  color: brown;
+ }
+ ul li:hover ul{
+  display: block;
+ }
+   
+    </style>
+    <body>
+      <div class="div-1">
+     <img  class="logo"src="doomm.png">
+      <input  class="search-bar"type="search" placeholder="Search for anything here" >
+      <button class="butt"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <div class="nav">
+       <a href="#"><p class="sign-in">Sign in</p></a>
+       <a href=""><i class="fa-regular fa-heart"></i><p class="like">like</p></a> 
+       <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+      </div>
+    </div>
+
+    <div class="div-2">
+ <ul>
+  <a href="#">
+    <li>Jewellery & Accessories
+    <ul class="drop-down">
+      <li><strong><a href="#">All Jewelleries and accesories <span>&rarr;</span></strong></a></li>
+      <li><a href="#">Accessories <span>&#62;</span></a></li>
+      <li><a href="#">Bag and Shoe<span>&#62;</span></a></li>
+      <li> <a href="#">Neckles <span>&#62;</span></a></li>
+      <li><a href="#">Rings<span>&#62;</span></a></li>
+      <li><a href="#">Earings <span>&#62;</span></a></li>
+      <li><a href="#">Braclets<span>&#62;</span></a></li>
+      <li> <a href="#">Body Jewellery  <span>&#62;</span></a></li>
+      <li><strong><a href="">All Jewelleries<span>&rarr;</span></a></strong></li>
+     </ul></a></li>
+
+
+
+
+
+  <li><a href="#">Clothing & Shoes></a></li>
+  <li><a href="#">Home & Living</a></li>
+  <li><a href="#">>Wedding & Party</a></li>
+  <li><a href="#">Toys & Entertainment</a></li>
+  <li><a href="#">Art & Collectibles</a></li>
+  <li><a href="#">Craft Supplies & Tools</a></li>
+  <li><a href="#">Vintage</a></li>
+  <li> <a href="#">rocky registry</a></li>
+
+
+ 
+</ul>
+    </div>
+    </body>
+  </head>
+</html>
